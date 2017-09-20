@@ -11,6 +11,7 @@ const mostrarCiudades = ciudades => {
 
     listadoCiudades.push(htmlCiudad);
   });
+};
 
   const contenedorCiudades = document.querySelector('.row.marketing');
 
