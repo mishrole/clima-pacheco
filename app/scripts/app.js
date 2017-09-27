@@ -10,11 +10,13 @@ const mostrarCiudades = ciudades => {
         </div>`;
 
     listadoCiudades.push(htmlCiudad);
+
   });
-};
 
-  const contenedorCiudades = document.querySelector('.row.marketing');
+  // const contenedorCiudades = document.querySelector('.row.marketing');
+  const contenedorCiudades = $('.row.marketing');
 
-  contenedorCiudades.innerHTML = listadoCiudades.join('');
+  // contenedorCiudades.innerHTML = listadoCiudades.join('');
+  contenedorCiudades.html(listadoCiudades.join(''));
 };
 export default mostrarCiudades;
