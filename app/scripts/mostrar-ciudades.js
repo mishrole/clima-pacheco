@@ -13,9 +13,7 @@ const mostrarCiudades = (ciudades, contenedorCiudades) => {
 
   });
 
-  // const contenedorCiudades = document.querySelector('.row.marketing');
-  // const contenedorCiudades = $('.row.marketing');
-  // contenedorCiudades.innerHTML = listadoCiudades.join('');
   contenedorCiudades.html(listadoCiudades.join(''));
+
 };
 export default mostrarCiudades;

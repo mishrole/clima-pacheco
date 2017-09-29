@@ -4,8 +4,6 @@ import './pacheco-plugin';
 
 $(() => {
 
-	// $(document).pacheco();
-	// mostrarCiudades(ciudades);
-
 	$('.row.marketing').pacheco({ciudades});
+
 });

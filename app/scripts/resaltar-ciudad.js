@@ -14,6 +14,6 @@ const resaltarCiudad = (cityContainer, ciudades) => {
 		modal.find('h4').text(nombre);
 		modal.find('p').text(descripcion);
 	});
-}
+};
 
 export default resaltarCiudad;
