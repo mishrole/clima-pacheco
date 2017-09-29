@@ -1,6 +1,6 @@
-import mostrarCiudades from './app';
+import mostrarCiudades from './mostrar-ciudades';
 import ciudades from './data';
-import './plugin';
+import './pacheco-plugin';
 
 $(() => {
 
